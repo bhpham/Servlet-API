@@ -1,0 +1,3 @@
+C\:/Users/Binh\ Pham/week2/FlashCardAppJeff/WebContent = FlashCardAppJeff.war
+C\:/Users/Binh\ Pham/week2/.metadata/.plugins/org.eclipse.core.resources/FlashCardAppJeff/build/weboutput = FlashCardAppJeff.war
+C\:/Users/Binh\ Pham/week2/FlashCardAppJeff/build/classes = FlashCardAppJeff.war/WEB-INF/classes

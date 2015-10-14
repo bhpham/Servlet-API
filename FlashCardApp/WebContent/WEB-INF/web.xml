@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>FlashCardApp</display-name>
+ <servlet>
+ 	<servlet-name>DSS</servlet-name>
+ 	<servlet-class>net.mv.flashcard.servlet.DSServlet</servlet-class>
+	<load-on-startup>1</load-on-startup>
+ </servlet>
+ 
+ <servlet>
+ 	<servlet-name>LoginS</servlet-name>
+ 	<servlet-class>net.mv.flashcard.servlet.LoginServlet</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ 	<servlet-name>LoginS</servlet-name>
+ 	<url-pattern>/login</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+	<servlet-name>RegistrationS</servlet-name>
+	<servlet-class>net.mv.flashcard.servlet.RegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>RegistrationS</servlet-name>
+	<url-pattern>/registration</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>CardS</servlet-name>
+	<servlet-class>net.mv.flashcard.servlet.CardServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>CardS</servlet-name>
+	<url-pattern>/card</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>randCard</servlet-name>
+	<servlet-class>net.mv.flashcard.servlet.CardServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>randCard</servlet-name>
+	<url-pattern>/randomCard</url-pattern>	
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>allcards</servlet-name>
+	<servlet-class>net.mv.flashcard.servlet.viewAllServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>allcards</servlet-name>
+	<url-pattern>/viewAll</url-pattern>	
+</servlet-mapping>
+</web-app>

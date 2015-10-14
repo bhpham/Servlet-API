@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MyFirstServlet/WebContent/Failure.html&apos; to &apos;failure.html&apos;" description="Rename resource &apos;Failure.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/Failure.html" name="failure.html" stamp="1436903738548" updateReferences="true"/>
+</session>

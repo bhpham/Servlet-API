@@ -1,0 +1,1196 @@
+!SESSION 2015-07-18 18:03:51.500 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+This is a continuation of log file C:\Users\Binh Pham\week2\.metadata\.bak_0.log
+Created Time: 2015-07-18 18:04:34.435
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:34.435
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:34.436
+!MESSAGE Elapsed time 3518ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:34.437
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain] t3://localhost:7001]@525969677
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:36.278
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:36.292
+!MESSAGE Module not changed:[FlashCardAppJeff]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:36.295
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:37.452
+!MESSAGE Module Status: 
+-FlashCardAppJeff
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:37.753
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:38.231
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:39.099
+!MESSAGE Waiting on ProgressObject:@26255749
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:39.332
+!MESSAGE ProgressObject completed :@26255749
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:39.334
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:39.346
+!MESSAGE Module _auto_generated_ear_ was undeployed sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:39.347
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:39.361
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:40.080
+!MESSAGE Waiting on ProgressObject:@834029976
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:41.069
+!MESSAGE ProgressObject completed :@834029976
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:41.072
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:41.075
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:41.708
+!MESSAGE Waiting on ProgressObject:@1958179579
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:42.009
+!MESSAGE ProgressObject completed :@1958179579
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:42.009
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:42.010
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-18 18:04:42.011
+!MESSAGE Publishing finished.
+!SESSION 2015-07-19 20:46:15.959 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-19 20:46:38.837
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-19 20:46:38.840
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-19 20:46:43.098
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
+!SESSION 2015-07-20 10:28:40.713 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-20 10:28:57.764
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-20 10:28:57.764
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:28:59.939
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
+
+!ENTRY org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36e8861f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8a6631b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68775a63,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c19d42e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4f6468c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40709f9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the JavaScript file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@99bff40,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ff6dd3c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bb15812,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5eb5da12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@29c7a145,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4589a694,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for ALT+SHIFT+V:
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.move.element,Move - Refactoring ,
+		Move the selected element to a new location,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@133e309a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.jst.jsp.ui.refactor.move,Move,
+		Move a Java Element to another package,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@25ffd826,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jst.jsp.ui.structured.text.editor.jsp.scope,,,system)
+Binding(ALT+SHIFT+V,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.move.element,Move - Refactoring ,
+		Move the selected element to a new location,
+		Category(org.eclipse.wst.jsdt.ui.category.refactoring,Refactor - JavaScript,JavaScript Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@623e9b27,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javascriptViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76e7c3ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jst.jsp.ui.refactor.rename,Rename,
+		Rename a Java Element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@706ceca6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jst.jsp.ui.structured.text.editor.jsp.scope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.wst.jsdt.ui.category.refactoring,Refactor - JavaScript,JavaScript Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e5266e2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javascriptViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c8a2352,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33bb3f86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.m2e.core.ui.command.addPlugin,Add Maven Plugin,
+		Add Maven Plugin,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a7b7447,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.core.runtime.xml,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42493c07,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Character,
+		Go to Matching Character,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35d60381,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f4127da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.open.editor,Open Declaration,
+		Open an editor on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@621c01d3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javascriptViewScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.open.file.from.source,Open Selection,
+		Open an editor on the selected link,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3394889b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.indent,Indent Line,
+		Indents the current line,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@383633ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f85217c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e6facc1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@134f8ef6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.wst.jsdt.ui.category.source,Source,JavaScript Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c7f3446,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@709f0202,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@bb8a702,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1095d23a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2015-07-20 10:45:23.834
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.jsdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the JavaScript file,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2187cfc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.jsdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42507640,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:54:54.538
+!MESSAGE Server watcher[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain]]:running Weblogic detected, validating...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:54:57.370
+!MESSAGE JMX Connection created to WebLogic Server @:[service:jmx:t3://localhost:7001/jndi/weblogic.management.mbeanservers.domainruntime]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:54:59.415
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:54:59.415
+!MESSAGE Elapsed time 1999ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:54:59.415
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain] t3://localhost:7001]@86159650
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:00.421
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:00.421
+!MESSAGE Module not changed:[FlashCardAppJeff]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:00.421
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:00.861
+!MESSAGE Module Status: 
+-FlashCardAppJeff
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:00.876
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:01.268
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:01.873
+!MESSAGE Waiting on ProgressObject:@244256458
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:02.123
+!MESSAGE ProgressObject completed :@244256458
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:02.139
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:02.155
+!MESSAGE Module _auto_generated_ear_ was undeployed sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:02.155
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:02.187
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:02.697
+!MESSAGE Waiting on ProgressObject:@1544583896
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:03.090
+!MESSAGE ProgressObject completed :@1544583896
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:03.090
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:03.090
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:03.459
+!MESSAGE Waiting on ProgressObject:@900559627
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:03.615
+!MESSAGE ProgressObject completed :@900559627
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:03.615
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:03.615
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 10:55:03.615
+!MESSAGE Publishing finished.
+!SESSION 2015-07-20 13:32:24.546 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2015-07-20 13:32:43.645
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-20 13:32:52.691
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-20 13:32:52.691
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:32:53.379
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:15.240
+!MESSAGE Server watcher[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain]]:running Weblogic detected, validating...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:18.594
+!MESSAGE JMX Connection created to WebLogic Server @:[service:jmx:t3://localhost:7001/jndi/weblogic.management.mbeanservers.domainruntime]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:20.985
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:20.985
+!MESSAGE Elapsed time 2203ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:20.985
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain] t3://localhost:7001]@1814202540
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:22.548
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:22.564
+!MESSAGE Module not changed:[FlashCardAppJeff]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:22.564
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:22.954
+!MESSAGE Module Status: 
+-FlashCardAppJeff
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:22.970
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:23.282
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:23.876
+!MESSAGE Waiting on ProgressObject:@1166026526
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:24.126
+!MESSAGE ProgressObject completed :@1166026526
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:24.126
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:24.142
+!MESSAGE Module _auto_generated_ear_ was undeployed sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:24.142
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:24.157
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:24.861
+!MESSAGE Waiting on ProgressObject:@1709668266
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:25.329
+!MESSAGE ProgressObject completed :@1709668266
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:25.345
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:25.345
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:25.704
+!MESSAGE Waiting on ProgressObject:@649579803
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:25.954
+!MESSAGE ProgressObject completed :@649579803
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:25.954
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:25.954
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:25.954
+!MESSAGE Publishing finished.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:26.314
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:26.314
+!MESSAGE Module not changed:[FlashCardAppJeff]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:26.314
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:30.939
+!MESSAGE Releasing deployment manager :[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain]]@1814202540
+!SESSION 2015-07-20 13:33:40.160 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-20 13:33:51.067
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-20 13:33:51.067
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:33:53.505
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:11.867
+!MESSAGE Server watcher[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain]]:running Weblogic detected, validating...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:14.009
+!MESSAGE JMX Connection created to WebLogic Server @:[service:jmx:t3://localhost:7001/jndi/weblogic.management.mbeanservers.domainruntime]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:15.978
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:15.978
+!MESSAGE Elapsed time 1922ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:15.978
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain] t3://localhost:7001]@140657427
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:16.900
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:16.916
+!MESSAGE Module not changed:[FlashCardAppJeff]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:16.916
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:17.291
+!MESSAGE Module Status: 
+-FlashCardAppJeff
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:17.306
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:17.603
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:18.072
+!MESSAGE Waiting on ProgressObject:@1813784647
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:18.306
+!MESSAGE ProgressObject completed :@1813784647
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:18.306
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:18.322
+!MESSAGE Module _auto_generated_ear_ was undeployed sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:18.322
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:18.338
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:18.885
+!MESSAGE Waiting on ProgressObject:@618849194
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:19.275
+!MESSAGE ProgressObject completed :@618849194
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:19.275
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:19.275
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:19.713
+!MESSAGE Waiting on ProgressObject:@1981218822
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:19.853
+!MESSAGE ProgressObject completed :@1981218822
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:19.853
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:19.853
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 13:34:19.853
+!MESSAGE Publishing finished.
+!SESSION 2015-07-20 14:25:49.462 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-20 14:26:08.364
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-20 14:26:08.364
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 14:26:12.967
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:41.263
+!MESSAGE Server watcher[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain]]:running Weblogic detected, validating...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:44.113
+!MESSAGE JMX Connection created to WebLogic Server @:[service:jmx:t3://localhost:7001/jndi/weblogic.management.mbeanservers.domainruntime]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:46.692
+!MESSAGE Creating Deployment manager...
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:46.693
+!MESSAGE Elapsed time 2532ms
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:46.697
+!MESSAGE Deployment manager created :[Oracle WebLogic Server 12c (12.1.2) at localhost [mydomain] t3://localhost:7001]@1810434416
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:48.928
+!MESSAGE Publishing beginning.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:48.938
+!MESSAGE Module not changed:[FlashCardAppJeff]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:48.941
+!MESSAGE Total deleted modules: 0
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:49.374
+!MESSAGE Module Status: 
+-FlashCardAppJeff
+
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:49.390
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:49.722
+!MESSAGE Status INFO: oracle.eclipse.tools.weblogic code=2000 ***dm.undeploy (undeploy) _auto_generated_ear_ null from targets [{Target=myserver, WebLogicTargetType=server, Name=_auto_generated_ear_}]
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:50.289
+!MESSAGE Waiting on ProgressObject:@1420292056
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:50.536
+!MESSAGE ProgressObject completed :@1420292056
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:50.542
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:50.560
+!MESSAGE Module _auto_generated_ear_ was undeployed sucessfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:50.560
+!MESSAGE ***dm.getAvailableModules (initModuleNameCache)
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:50.574
+!MESSAGE ***dm.distribute (deploy) module _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.023
+!MESSAGE Waiting on ProgressObject:@408905739
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.487
+!MESSAGE ProgressObject completed :@408905739
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.490
+!MESSAGE _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.491
+!MESSAGE ***dm.start (startModule) _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.801
+!MESSAGE Waiting on ProgressObject:@1753887029
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.953
+!MESSAGE ProgressObject completed :@1753887029
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.954
+!MESSAGE Started _auto_generated_ear_
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.956
+!MESSAGE Module _auto_generated_ear_ deployed successfully.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-20 15:58:51.958
+!MESSAGE Publishing finished.
+!SESSION 2015-07-21 17:39:21.061 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui.workbench 4 2 2015-07-21 17:39:28.585
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.model.RuntimeDelegate.getAttribute(RuntimeDelegate.java:198)
+	at oracle.eclipse.tools.weblogic.server.internal.WeblogicServerRuntime.getPatchProfile(WeblogicServerRuntime.java:561)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:273)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:257)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:244)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl.createContainer(SystemLibrariesContainerImpl.java:163)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl$Initializer.initialize(SystemLibrariesContainerImpl.java:278)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2867)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1902)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3221)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2692)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2856)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1961)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2239)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:48)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:35)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui 4 4 2015-07-21 17:39:28.616
+!MESSAGE Exception in Decorator. The 'Java Build Path Indicator' decorator will be disabled.
+
+!ENTRY org.eclipse.ui 4 4 2015-07-21 17:39:28.616
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.model.RuntimeDelegate.getAttribute(RuntimeDelegate.java:198)
+	at oracle.eclipse.tools.weblogic.server.internal.WeblogicServerRuntime.getPatchProfile(WeblogicServerRuntime.java:561)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:273)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:257)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:244)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl.createContainer(SystemLibrariesContainerImpl.java:163)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl$Initializer.initialize(SystemLibrariesContainerImpl.java:278)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2867)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1902)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3221)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2692)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2856)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1961)
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2239)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:48)
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:35)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:269)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:81)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:365)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:347)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:371)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:331)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-07-21 17:39:28.648
+!MESSAGE An internal error occurred during: "AppXray Indexing...".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.model.RuntimeDelegate.getAttribute(RuntimeDelegate.java:198)
+	at oracle.eclipse.tools.weblogic.server.internal.WeblogicServerRuntime.getPatchProfile(WeblogicServerRuntime.java:561)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:273)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:257)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:244)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl.createContainer(SystemLibrariesContainerImpl.java:163)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl$Initializer.initialize(SystemLibrariesContainerImpl.java:278)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2867)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1902)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3221)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2692)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2856)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1961)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:463)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:521)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:244)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:1641)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2328)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2338)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1356)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1263)
+	at oracle.eclipse.tools.webtier.jsf.AbstractJSFTechnologyDiscoverer.isActive(AbstractJSFTechnologyDiscoverer.java:68)
+	at oracle.eclipse.tools.common.services.project.technology.DefaultTechnologyDiscoveryProvider.getActiveTechnologyDescriptors(DefaultTechnologyDiscoveryProvider.java:82)
+	at oracle.eclipse.tools.common.services.project.technology.DefaultTechnologyDiscoveryProvider.getActiveTechnologies(DefaultTechnologyDiscoveryProvider.java:64)
+	at oracle.eclipse.tools.common.services.project.internal.ProjectImpl.getTechnologyExtensions(ProjectImpl.java:75)
+	at oracle.eclipse.tools.common.services.project.internal.ProjectImpl.getTechnologyExtensionById(ProjectImpl.java:96)
+	at oracle.eclipse.tools.webtier.javawebapp.WebAppClassloaderResetCommand.execute(WebAppClassloaderResetCommand.java:44)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runPreLockCommands(CommandSetJob.java:211)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-07-21 17:39:28.648
+!MESSAGE An internal error occurred during: "AppXray Indexing...".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.model.RuntimeDelegate.getAttribute(RuntimeDelegate.java:198)
+	at oracle.eclipse.tools.weblogic.server.internal.WeblogicServerRuntime.getPatchProfile(WeblogicServerRuntime.java:561)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:273)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:257)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:244)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl.createContainer(SystemLibrariesContainerImpl.java:163)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl$Initializer.initialize(SystemLibrariesContainerImpl.java:278)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2867)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1902)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3221)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2692)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2856)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1961)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:463)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:521)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:244)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:1641)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2328)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2338)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1356)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1263)
+	at oracle.eclipse.tools.webtier.jsf.AbstractJSFTechnologyDiscoverer.isActive(AbstractJSFTechnologyDiscoverer.java:68)
+	at oracle.eclipse.tools.common.services.project.technology.DefaultTechnologyDiscoveryProvider.getActiveTechnologyDescriptors(DefaultTechnologyDiscoveryProvider.java:82)
+	at oracle.eclipse.tools.common.services.project.technology.DefaultTechnologyDiscoveryProvider.getActiveTechnologies(DefaultTechnologyDiscoveryProvider.java:64)
+	at oracle.eclipse.tools.common.services.project.internal.ProjectImpl.getTechnologyExtensions(ProjectImpl.java:75)
+	at oracle.eclipse.tools.common.services.project.internal.ProjectImpl.getTechnologyExtensionById(ProjectImpl.java:96)
+	at oracle.eclipse.tools.webtier.javawebapp.WebAppClassloaderResetCommand.execute(WebAppClassloaderResetCommand.java:44)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runPreLockCommands(CommandSetJob.java:211)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-07-21 17:39:28.648
+!MESSAGE An internal error occurred during: "AppXray Indexing...".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.model.RuntimeDelegate.getAttribute(RuntimeDelegate.java:198)
+	at oracle.eclipse.tools.weblogic.server.internal.WeblogicServerRuntime.getPatchProfile(WeblogicServerRuntime.java:561)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:273)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:257)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:244)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl.createContainer(SystemLibrariesContainerImpl.java:163)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl$Initializer.initialize(SystemLibrariesContainerImpl.java:278)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2867)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1902)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3221)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2692)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2856)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1961)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:463)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:521)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:244)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:1641)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2328)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2338)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1356)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1263)
+	at oracle.eclipse.tools.webtier.jsf.AbstractJSFTechnologyDiscoverer.isActive(AbstractJSFTechnologyDiscoverer.java:68)
+	at oracle.eclipse.tools.common.services.project.technology.DefaultTechnologyDiscoveryProvider.getActiveTechnologyDescriptors(DefaultTechnologyDiscoveryProvider.java:82)
+	at oracle.eclipse.tools.common.services.project.technology.DefaultTechnologyDiscoveryProvider.getActiveTechnologies(DefaultTechnologyDiscoveryProvider.java:64)
+	at oracle.eclipse.tools.common.services.project.internal.ProjectImpl.getTechnologyExtensions(ProjectImpl.java:75)
+	at oracle.eclipse.tools.common.services.project.internal.ProjectImpl.getTechnologyExtensionById(ProjectImpl.java:96)
+	at oracle.eclipse.tools.webtier.javawebapp.WebAppClassloaderResetCommand.execute(WebAppClassloaderResetCommand.java:44)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runPreLockCommands(CommandSetJob.java:211)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-07-21 17:39:28.663
+!MESSAGE An internal error occurred during: "AppXray Indexing...".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.server.core.model.RuntimeDelegate.getAttribute(RuntimeDelegate.java:198)
+	at oracle.eclipse.tools.weblogic.server.internal.WeblogicServerRuntime.getPatchProfile(WeblogicServerRuntime.java:561)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:273)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:257)
+	at oracle.eclipse.tools.weblogic.WebLogicServerInstall.getWebLogicServerInstall(WebLogicServerInstall.java:244)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl.createContainer(SystemLibrariesContainerImpl.java:163)
+	at oracle.eclipse.tools.weblogic.syslib.internal.SystemLibrariesContainerImpl$Initializer.initialize(SystemLibrariesContainerImpl.java:278)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2867)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1902)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3221)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2692)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2856)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1961)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:463)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:521)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:244)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:1641)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2328)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2338)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1356)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1263)
+	at oracle.eclipse.tools.webtier.jsf.AbstractJSFTechnologyDiscoverer.isActive(AbstractJSFTechnologyDiscoverer.java:68)
+	at oracle.eclipse.tools.common.services.project.technology.DefaultTechnologyDiscoveryProvider.getActiveTechnologyDescriptors(DefaultTechnologyDiscoveryProvider.java:82)
+	at oracle.eclipse.tools.common.services.project.technology.DefaultTechnologyDiscoveryProvider.getActiveTechnologies(DefaultTechnologyDiscoveryProvider.java:64)
+	at oracle.eclipse.tools.common.services.project.internal.ProjectImpl.getTechnologyExtensions(ProjectImpl.java:75)
+	at oracle.eclipse.tools.common.services.project.internal.ProjectImpl.getTechnologyExtensionById(ProjectImpl.java:96)
+	at oracle.eclipse.tools.webtier.javawebapp.WebAppClassloaderResetCommand.execute(WebAppClassloaderResetCommand.java:44)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.runPreLockCommands(CommandSetJob.java:211)
+	at oracle.eclipse.tools.common.services.resources.internal.CommandSetJob.run(CommandSetJob.java:79)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-21 17:39:31.351
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-21 17:39:31.351
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-21 17:39:34.304
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
+!SESSION 2015-07-21 17:41:44.941 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-21 17:41:56.523
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-21 17:41:56.523
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-07-21 17:41:59.288
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
+!SESSION 2015-09-02 11:17:57.151 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-09-02 11:18:09.900
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2015-09-02 11:18:12.535
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2015-09-02 11:18:12.535
+!MESSAGE Could not load repository template extension contributed by 'org.springsource.ide.eclipse.dashboard.ui' with connectorKind 'jira'
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2015-09-02 11:18:12.535
+!MESSAGE Could not load repository template extension contributed by 'org.springsource.ide.eclipse.dashboard.ui' with connectorKind 'jira'
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 11:18:18.634
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-02 11:18:18.634
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-09-02 11:18:21.797
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
+!SESSION 2015-09-03 10:47:19.177 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2015-09-03 10:47:31.979
+!MESSAGE Project facet grails.app has not been defined. It is used in plugin com.vmware.vfabric.ide.eclipse.tcserver.core.
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2015-09-03 10:47:36.483
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2015-09-03 10:47:36.483
+!MESSAGE Could not load repository template extension contributed by 'org.springsource.ide.eclipse.dashboard.ui' with connectorKind 'jira'
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2015-09-03 10:47:36.483
+!MESSAGE Could not load repository template extension contributed by 'org.springsource.ide.eclipse.dashboard.ui' with connectorKind 'jira'
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-03 10:47:38.530
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-09-03 10:47:38.546
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Binh Pham'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY oracle.eclipse.tools.weblogic 1 2000 2015-09-03 10:47:40.953
+!MESSAGE Started WebLogic Server Monitor [mydomain@localhost:7001, Version:12.1.2.0.0]
